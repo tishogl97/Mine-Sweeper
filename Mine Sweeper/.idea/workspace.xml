@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91525f72-a414-4dc5-9949-04a8e1c67b60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Mine Sweeper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MineGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/contracts/MineGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BoardGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DifficultiesEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DifficultiesEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameplayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameplayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/BoardGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/BoardGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Gameplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Mine Sweeper.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fgUMHEL7FcaNIm3DHLKiwrmICP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Startup" />
+      <module name="Mine Sweeper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Startup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91525f72-a414-4dc5-9949-04a8e1c67b60" name="Default Changelist" comment="" />
+      <created>1596639179614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596639179614</updated>
+      <workItem from="1596639182261" duration="10674000" />
+      <workItem from="1596651133405" duration="5720000" />
+    </task>
+    <task id="LOCAL-00001" summary="ChooseDifficulty and BoardGenerator classes added">
+      <created>1596649659977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596649659977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ChooseDifficulty and BoardGenerator classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChooseDifficulty and BoardGenerator classes added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1596656495388">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1596656495388" />
+    <state x="470" y="178" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1596646712014">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="470" y="178" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.864@0.0.1536.864" timestamp="1596646712014" />
+    <state x="549" y="291" width="437" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596643825796">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="291" width="437" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1596643825796" />
+    <state x="351" y="22" key="CommitChangelistDialog2" timestamp="1596649657843">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="351" y="22" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596649657843" />
+    <state width="1491" height="269" key="GridCell.Tab.0.bottom" timestamp="1596656301815">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="269" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
+    <state width="1491" height="269" key="GridCell.Tab.0.center" timestamp="1596656301815">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="269" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
+    <state width="1491" height="269" key="GridCell.Tab.0.left" timestamp="1596656301814">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="269" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1596656301814" />
+    <state width="1491" height="269" key="GridCell.Tab.0.right" timestamp="1596656301815">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="269" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1596642690671">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596642690671" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1596651133117">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1596651133117" />
+    <state x="511" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1596647412038">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="50" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1596647412038" />
+  </component>
+</project>
