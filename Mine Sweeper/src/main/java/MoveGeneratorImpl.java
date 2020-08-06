@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 public class MoveGeneratorImpl implements MoveGenerator {
-    private static final String OPEN_CELL = "Open";
+    public static final String OPEN_CELL = "Open";
 
     public MoveGeneratorImpl() {
     }
@@ -17,11 +17,12 @@ public class MoveGeneratorImpl implements MoveGenerator {
         } else if (cell.equals("0")) {
             openCellsAround(gameplayBoard, visualBoard, cellRow, cellCol);
             return true;
-        } else {
+        } else if (!cell.equals(OPEN_CELL)){
             visualBoard[cellRow][cellCol] = gameplayBoard[cellRow][cellCol];
             gameplayBoard[cellRow][cellCol] = OPEN_CELL;
             return true;
         }
+        return true;
     }
 
     private void openCellsAround(String[][] gameplayBoard, String[][] visualBoard, int cellRow, int cellCol) {

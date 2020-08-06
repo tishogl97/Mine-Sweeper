@@ -67,21 +67,14 @@ public class GameplayImpl implements Gameplay {
                             , difficulty.getBoardSize(difficulty));
                     rowMove = input.nextInt();
                     colMove = input.nextInt();
-                } else {
+                } else if(!gameplayBoard[rowMove][colMove].equals(MoveGeneratorImpl.OPEN_CELL)) {
                     visualBoard[rowMove][colMove] = gameplayBoard[rowMove][colMove];
                     break;
                 }
             }
-//            gameOver = moveGenerator.makeMove(gameplayBoard, visualBoard, rowMove, colMove);
             gameOver = checkGameEnded(visualBoard, gameplayBoard, rowMove, colMove, difficulty);
             for (String[] strings : visualBoard) {
                 for (int cols = 0; cols < visualBoard.length; cols++) {
-                    System.out.print(strings[cols]);
-                }
-                System.out.println();
-            }
-            for (String[] strings : gameplayBoard) {
-                for (int cols = 0; cols < gameplayBoard.length; cols++) {
                     System.out.print(strings[cols]);
                 }
                 System.out.println();
