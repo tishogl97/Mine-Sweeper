@@ -22,12 +22,12 @@ public class MineGeneratorImpl implements MineGenerator {
                 count++;
             }
         }
-        for (String[] strings : board) {
-            for (int j = 0; j < board.length; j++) {
-                System.out.print(strings[j]);
-            }
-            System.out.println();
-        }
+//        for (String[] strings : board) {
+//            for (int j = 0; j < board.length; j++) {
+//                System.out.print(strings[j]);
+//            }
+//            System.out.println();
+//        }
         return board;
     }
 }

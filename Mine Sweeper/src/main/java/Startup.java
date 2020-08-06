@@ -1,7 +1,4 @@
-import contracts.BoardGenerator;
-import contracts.ChooseDifficulty;
-import contracts.Gameplay;
-import contracts.MineGenerator;
+import contracts.*;
 
 import java.util.Scanner;
 
@@ -12,7 +9,8 @@ public class Startup {
         ChooseDifficulty chooseDifficulty = new ChooseDifficultyImpl(in);
         BoardGenerator boardGenerator = new BoardGeneratorImpl(chooseDifficulty);
         MineGenerator mineGenerator = new MineGeneratorImpl();
-        Gameplay gameplay = new GameplayImpl(in, chooseDifficulty, boardGenerator, mineGenerator);
-        boardGenerator.showBoard();
+        MoveGenerator moveGenerator = new MoveGeneratorImpl();
+        Gameplay gameplay = new GameplayImpl(in, chooseDifficulty, boardGenerator, mineGenerator, moveGenerator);
+        gameplay.startPlaying();
     }
 }

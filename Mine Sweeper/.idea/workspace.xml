@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91525f72-a414-4dc5-9949-04a8e1c67b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mine Sweeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MineGeneratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/contracts/MineGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MoveGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/contracts/MoveGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BoardGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardGeneratorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DifficultiesEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DifficultiesEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameplayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameplayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MineGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MineGeneratorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Startup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/contracts/BoardGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/BoardGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Gameplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Mine Sweeper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Difficulties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Difficulties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GreenVsRed/green-vs-red" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -80,6 +78,8 @@
       <updated>1596639179614</updated>
       <workItem from="1596639182261" duration="10674000" />
       <workItem from="1596651133405" duration="5720000" />
+      <workItem from="1596659351020" duration="1180000" />
+      <workItem from="1596700851514" duration="18247000" />
     </task>
     <task id="LOCAL-00001" summary="ChooseDifficulty and BoardGenerator classes added">
       <created>1596649659977</created>
@@ -115,33 +115,53 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="351" y="22" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596649657843" />
-    <state width="1491" height="269" key="GridCell.Tab.0.bottom" timestamp="1596656301815">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1596660176489">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="269" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
-    <state width="1491" height="269" key="GridCell.Tab.0.center" timestamp="1596656301815">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596660176489" />
+    <state width="1491" height="164" key="GridCell.Tab.0.bottom" timestamp="1596734463805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="269" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
-    <state width="1491" height="269" key="GridCell.Tab.0.left" timestamp="1596656301814">
+    <state width="1491" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596734463805" />
+    <state width="1491" height="164" key="GridCell.Tab.0.center" timestamp="1596734463804">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="269" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1596656301814" />
-    <state width="1491" height="269" key="GridCell.Tab.0.right" timestamp="1596656301815">
+    <state width="1491" height="164" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1596734463804" />
+    <state width="1491" height="164" key="GridCell.Tab.0.left" timestamp="1596734463804">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="269" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1596656301815" />
+    <state width="1491" height="164" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1596734463804" />
+    <state width="1491" height="164" key="GridCell.Tab.0.right" timestamp="1596734463804">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1596734463804" />
+    <state width="1491" height="276" key="GridCell.Tab.1.bottom" timestamp="1596730146477">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596730146477" />
+    <state width="1491" height="276" key="GridCell.Tab.1.center" timestamp="1596730146476">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="276" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1596730146476" />
+    <state width="1491" height="276" key="GridCell.Tab.1.left" timestamp="1596730146476">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="276" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1596730146476" />
+    <state width="1491" height="276" key="GridCell.Tab.1.right" timestamp="1596730146477">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1596730146477" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1596642690671">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596642690671" />
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1596651133117">
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1596702697659">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1596651133117" />
-    <state x="511" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1596647412038">
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1596702697659" />
+    <state x="511" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1596726907549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="511" y="50" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1596647412038" />
+    <state x="511" y="50" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1596726907549" />
   </component>
 </project>
